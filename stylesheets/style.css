@@ -1,14 +1,23 @@
 html, body {
+	width: 100%;
 	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
 	font-family: "Merriweather";
 }
 
 h1 {
-	font-family: "Abril Fatface";
+	font-family: "Lato";
 	color: #e52952;
 	font-size: 50pt;
-/*	text-transform: uppercase;
-*/}
+	text-transform: uppercase;
+}
+
+a i{
+	width: 42px;
+	height: 42px;
+}
 
 #white-greeting {
 	color: white;
@@ -31,7 +40,8 @@ p {
 }
 
 i {
-	color: #2eb4e9;
+	color: black;
+	opacity: 0.75;
 	padding: 5px 5px;
 }
  
@@ -52,7 +62,6 @@ i {
 	padding: 1.25em;
 	height: 50%;
 	position: relative;
-	z-index: -2;
 
 }
 
@@ -64,6 +73,8 @@ i {
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  z-index: 2;
+
 }
 
 #greeting2 {
@@ -74,7 +85,7 @@ i {
   left: 50%;
   transform: translate(-49%, -49%);
   -webkit-transform: translate(-49%, -49%);
-  z-index: -1;
+  z-index: 1;
 }
 
 #greeting3 {
@@ -85,7 +96,7 @@ i {
   left: 50%;
   transform: translate(-51%, -51%);
   -webkit-transform: translate(-51%, -51%);
-  z-index: -1;
+  z-index: 1;
 }
 
 
@@ -98,6 +109,7 @@ i {
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  z-index: 3;
 }
 
 #description {
