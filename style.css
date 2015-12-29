@@ -14,9 +14,21 @@ h1 {
 	text-transform: uppercase;
 }
 
-a i{
-	width: 42px;
-	height: 42px;
+h2 {
+	font-family: "Abril Fatface";
+	color: black;
+	font-size: 28pt;
+	letter-spacing: 1px;
+}
+
+a, a:visited {
+	color: #e52952;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2eb4e9;
+
 }
 
 #white-greeting {
@@ -37,6 +49,8 @@ body {
 
 p {
 	line-height: 150%;
+	font-size: 12pt;
+	padding: 10px 0px;
 }
 
 i {
@@ -54,6 +68,12 @@ i {
 	padding: 1.25em;
 	height: 100%;
 	position: relative;
+/*	background: 
+	    linear-gradient(
+	      rgba(255, 255, 255, 0.75), 
+	      rgba(255, 255, 255, 0.75)
+	    ),
+	    url(jennifer.jpg);*/
 
 }
  
@@ -131,6 +151,7 @@ i {
 	}
 
 	#jennifer {
+		background-color: #ffe143;
 		position: absolute;
 		top: 0;
 		left: 0;
