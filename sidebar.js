@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <nav id="navigation">
           <a href="/resume.pdf" target="_blank">resume</a>
           <a href="https://www.linkedin.com/in/jennifer-zhang-41404478" target="_blank">linkedin</a>
-          <a href="mailto:jenniferjuliazhang@gmail.com">email</a>
+          <a href="mailto:jenniferjuliazhang@gmail.com">contact</a>
         </nav>
       </div>
     `;
